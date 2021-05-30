@@ -1,5 +1,5 @@
 html{
-    background-color:rgb(235, 220, 78);
+    background-color:rgb(235, 202.5, 78);
     font-family:lato, sans-serif;
     color:black;
 }
@@ -7,7 +7,7 @@ html{
 header{
     text-align: center;
     color:rgb(3, 68, 68);
-    background-color:rgb(200, 181, 53);
+    background-color:rgb(200, 170, 53);
 }
 
 footer{
@@ -16,7 +16,7 @@ footer{
     margin-bottom:0.6rem;
     left:8px;
     right:8px;
-    background-color:rgb(200, 181, 53);
+    background-color:rgb(200, 170, 53);
 }
 
 footer table{
