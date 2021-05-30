@@ -1,20 +1,22 @@
 html{
-    background-color:rgb(187, 95, 187);
+    background-color:rgb(235, 220, 78);
     font-family:lato, sans-serif;
-    color:rgb(12, 12, 12);
+    color:black;
 }
 
 header{
-    background-color:rgb(161, 84, 180);
     text-align: center;
-    
+    color:rgb(3, 68, 68);
+    background-color:rgb(200, 181, 53);
 }
 
 footer{
-    margin-bottom:1rem;
+    position:absolute;
+    bottom:0px;
+    margin-bottom:0.6rem;
     left:8px;
     right:8px;
-    background-color:rgb(161, 84, 180);
+    background-color:rgb(200, 181, 53);
 }
 
 footer table{
@@ -35,20 +37,15 @@ footer table{
     margin: 0.6rem 0.5rem 0px 0px;
 }
 
-.subPages{
-    float:right;
-    padding-left:1rem;
-    padding-right: 2rem;
-    margin-top:1rem;
-    background-color:rgb(175, 89, 175);
-}
+.subPages{float:right;}
 
-.wholeTree{
-    float:left;
+.wholeTree{float:left;}
+
+nav{
     padding-left: 1rem;
     padding-right: 2rem;
     margin-top:1rem;
-    background-color:rgb(175, 89, 175);
+    background-color:rgba(0,0,0,0.09);
 }
 
 .italic{
@@ -62,4 +59,8 @@ a{
 
 a:hover{
     color: rgb(71, 71, 71);
+}
+
+ul{
+    list-style-image:url('../images/burger-16x16.png');
 }
