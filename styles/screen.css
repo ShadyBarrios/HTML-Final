@@ -1,5 +1,7 @@
 html{
-    background-color:rgb(18, 95, 187);
+    background-color:rgb(187, 95, 187);
+    font-family:lato, sans-serif;
+    color:rgb(12, 12, 12);
 }
 
 header{
@@ -9,8 +11,18 @@ header{
 }
 
 footer{
+    position:absolute;
+    bottom:0.5rem;
+    left:8px;
+    right:8px;
     background-color:rgb(161, 84, 180);
 }
+
+footer table{
+    margin-right:auto;
+    margin-left:auto;
+}
+
 .headerTable{
     margin-left:auto;
     margin-right:auto;
@@ -20,6 +32,35 @@ footer{
 
 .headerTable img{
     height:6.5rem;
-    margin-right:0.5rem;
-    margin-top:0.2rem;
+    /* margin: top right bottom left */
+    margin: 0.6rem 0.5rem 0px 0px;
+}
+
+.subPages{
+    float:right;
+    padding-left:1rem;
+    padding-right: 2rem;
+    margin-top:1rem;
+    background-color:rgb(175, 89, 175);
+}
+
+.wholeTree{
+    float:left;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    margin-top:1rem;
+    background-color:rgb(175, 89, 175);
+}
+
+.italic{
+    font-style:italic;
+}
+
+a{
+    text-decoration:none;
+    color:rgb(44, 44, 44);
+}
+
+a:hover{
+    color: rgb(71, 71, 71);
 }
