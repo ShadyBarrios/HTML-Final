@@ -1,0 +1,21 @@
+html{
+    background-color:rgb(187, 95, 187);
+}
+
+header{
+    background-color:rgb(161, 84, 180);
+    text-align: center;
+}
+
+footer{
+    background-color:rgb(161, 84, 180);
+}
+.headerTable{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.headerTable img{
+    height:6rem;
+    margin-right:20px;
+}
