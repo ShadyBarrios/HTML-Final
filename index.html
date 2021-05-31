@@ -25,11 +25,14 @@
         <nav class = "wholeTree">
             <p>Whole Tree</p>
             <ol>
-                <li><button id="NonBurger"><a href="detailedMenu.html">About</a></button></li>
-                <li><button id="foodButton" class="hamborger">Food</button></li>
-                <li><button id="jobsButton" class="hamborger">Jobs</button><div id = "jobsContent"></div></li>    
+
+            <ul id="NonBurger">
+                <li><button ><a href="index.html">Home</a></button></li>
+            </ul>
+                <li><button id="foodButton" class="hamborger">Food</button><span id = "foodContent"></span></li>
+                <li><button id="jobsButton" class="hamborger">Jobs</button><span id = "jobsContent"></span></li>
             </ol>
-            <script src="js/jobsListExposer.js"></script>
+            <script src="js/listExposer.js"></script>
         </nav>
         <nav class = "subPages">
             <p>Other Subpages</p>
@@ -39,13 +42,8 @@
         </nav>
     </body>
     <footer>
-        <table>
-            <td style="padding-right:1rem;">
-                <p>The Krusty Krab&trade; </p>
-                <p> Home of the <span class="italic">Krabby Patty</span>&trade;</p>
-                <p>Come spend <span class="italic">your</span> money here!&trade;</p>
-            <span id="restOfTable"></span>
-            <script src = "js/footerAdjuster.js"></script>
+        <table id="footerTable">
         </table>
+        <script src = "js/footerAdjuster.js"></script>
     </footer>
 </html>
