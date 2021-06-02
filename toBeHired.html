@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>To-Be-Hired</title>
+        <link rel="icon" href="images/logo-32x32.png">
+        <link rel="stylesheet" href="styles/screen.css">
+        <link rel="stylesheet" href="styles/mobile.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Sigmar+One&display=swap" rel="stylesheet">
+    </head>
+    <header>
+        <table class = "headerTable">
+            <tr>
+                <td colspan = "2">
+                    <a href="index.html"><img src = "images/logo.png" alt="Company Logo"></a>
+                </td>
+                <td>
+                    <h1>The Krusty Krab</h1>
+                    <h3>Home of the Krabby Patty</h3>
+                </td>
+            </tr>     
+        </table>
+    </header>
+    <body>
+        <nav class = "wholeTree">
+            <p>Link Tree</p>
+            <ol>
+                <ul id="NonBurger">
+                    <li><button ><a href="index.html">Home</a></button></li>
+                </ul>
+                <li><button id="foodButton" class="hamborger">Food</button><span id = "foodContent"></span></li>
+                <li><button id="jobsButton" class="hamborger">Jobs</button><span id = "jobsContent"></span></li>
+                <ul id="NonBurger">
+                    <li><button><a href="faqs.html">FAQs</a></button></li>
+                </ul>
+            </ol>
+            
+            <script src="js/listExposer.js"></script>
+        </nav>
+        <aside class="aboutPage">
+            <p>About This Page</p>
+            <p id="descriptionOfPage">
+                This page is made for the citizens of Bikini Bottom who wish to work for 
+                this fine establishment and make me, Mr. Krabs, money.
+            </p>
+        </aside>
+    </body>
+    <footer>
+        <table id="footerTable">
+        </table>
+        <script src = "js/footerAdjuster.js"></script>
+    </footer>
+</html>

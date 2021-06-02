@@ -11,9 +11,9 @@ header{
 }
 
 footer{
-    position:absolute;
     bottom:0px;
-    margin-bottom:0.6rem;
+    margin-bottom:0.5rem;
+    margin-top:5rem;
     left:8px;
     right:8px;
     background-color:rgb(223, 204, 64);
@@ -37,14 +37,13 @@ footer table{
     margin: 0.6rem 0.5rem 0px 0px;
 }
 
-.subPages{float:right;}
-
 .wholeTree{float:left;}
 
 nav{
     padding-left: 1rem;
     padding-right: 2rem;
     margin-top:1rem;
+    margin-bottom:1rem;
     background-color:rgba(0,0,0,0.09);
 }
 
@@ -84,4 +83,27 @@ button{
 
 .hamborger:hover{
     color:rgba(0,0,0,0.6);
+}
+
+article{
+    display:block;
+    margin-right:13%;
+    margin-left:13%;
+}
+
+.aboutPage{
+    float:right;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    background-color:rgba(0,0,0,0.09);
+    width:12%;
+    max-width:12%;
+    display:block;
+
+}
+
+#descriptionOfPage{
+    padding-left:8%;
 }
