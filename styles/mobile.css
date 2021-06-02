@@ -2,10 +2,16 @@
     html{
         font-size:1.25rem;
     }
+    a{
+        margin-bottom:0.2rem;
+    }
 }
 
 @media screen and (max-width: 400px){
     html{
         font-size:1.75rem;
+    }
+    a{
+        margin-bottom:0.1rem;
     }
 }
