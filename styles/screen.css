@@ -37,7 +37,7 @@ footer table{
     margin: 0.6rem 0.5rem 0px 0px;
 }
 
-.wholeTree{float:left;}
+.wholeTree{float:left;margin-right:1.5rem;}
 
 nav{
     padding-left: 1rem;
@@ -61,7 +61,7 @@ a:hover{
 }
 
 ul{
-    list-style-image:url('../images/burger-16x16.png');
+    list-style-image:url('../images/burger-16x16.png'); /* Image of a krabby patty */
 }
 
 button{
@@ -88,7 +88,8 @@ button{
 article{
     display:block;
     margin-right:13%;
-    margin-left:13%;
+    margin-left:17%;
+    padding-top:1rem;
 }
 
 .aboutPage{
@@ -106,4 +107,14 @@ article{
 
 #descriptionOfPage{
     padding-left:8%;
+}
+
+.question{
+    font-weight:bold;
+    font-size:larger;
+}
+
+.answer{
+    font-size:110%;
+
 }
