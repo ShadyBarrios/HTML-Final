@@ -1,11 +1,12 @@
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
     html{
         font-size:1.25rem;
+        background-color:red;
     }
     a{
-        margin-bottom:0.2rem;
+        margin-bottom:0.8rem;
     }
     li{
-        margin-bottom:0.2rem;
+        margin-bottom:0.8rem;
     }
 }
