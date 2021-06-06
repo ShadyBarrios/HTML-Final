@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Hired</title>
+        <link rel="icon" href="images/logo-32x32.png">
+        <link rel="stylesheet" href="styles/screen.css">
+        <link rel="stylesheet" href="styles/mobile.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Sigmar+One&display=swap" rel="stylesheet">
+    </head>
+    <header>
+        <table class = "headerTable">
+            <tr>
+                <td colspan = "2">
+                    <a href="index.html"><img src = "images/logo.png" alt="Company Logo"></a>
+                </td>
+                <td>
+                    <h1>The Krusty Krab</h1>
+                    <h3>Home of the Krabby Patty</h3>
+                </td>
+            </tr>     
+        </table>
+    </header>
+    <body>
+        <nav class = "wholeTree">
+            <p>Link Tree</p>
+            <ol>
+                <ul id="NonBurger">
+                    <li><button ><a href="index.html">Home</a></button></li>
+                </ul>
+                <li><button id="foodButton" class="hamborger">Food</button><span id = "foodContent"></span></li>
+                <li><button id="jobsButton" class="hamborger">Jobs</button><span id = "jobsContent"></span></li>
+                <ul id="NonBurger">
+                    <li><button><a href="faqs.html">FAQs</a></button></li>
+                </ul>
+            </ol>
+            <script src="js/listExposer.js"></script>
+        </nav>
+        <aside class="aboutPage">
+            <p>About This Page</p>
+            <p id="descriptionOfPage">
+                This page is made for the newly hired citizens of Bikini Bottom who will make me, Mr. Krabs, money.
+            </p>
+        </aside>
+        <article>
+            <figure id="heading">
+                <img src="images/forTheHired.jpg" height="auto" width="17%" alt="Our happy employees">
+                <figcaption>
+                    <h3 class="animateIn">For Our Newly Hired Employees:</h3>
+                </figcaption>
+            </figure>
+            <p style="font-size:17px;">
+                <span class="pix20">Congratulations!</span> on being hired by the best establishment in 
+                <span class="italic">Bikini Bottom</span>. We are very excited to see you "make [Mr. Krabs] 
+                loads of money"!. Although it wasn't stated in application, you are expected to prove your loyalty
+                to the company by working a minimum 3 hours of overtime for your first <span class="italic">
+                    year
+                </span>
+                at the company. Also, don't be shocked if you aren't even pay. Once again, we are so exicted that 
+                you will be apart of Mr. Krabs adventure to make as much money as humanly possible. Please watch
+                the instructional video at the bottom of the page so that we don't have to fire you on the first day.
+            </p>
+            <br>
+            <p>&emsp;With <span class = "italic">very</span> little love,<br></p>
+            <h4>&emsp;&emsp;&emsp;Mr. Krabs</h4>
+
+            <br><br><br>
+            <div id="instructional">
+                <iframe width="360" height="200" src="https://www.youtube.com/embed/Pblb2_mTfvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </article>
+        <script src="js/textAnimator.js"></script>
+    </body>
+    <footer>
+        <table id="footerTable">
+        </table>
+        <script src = "js/footerAdjuster.js"></script>
+    </footer>
+</html>
