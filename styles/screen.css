@@ -6,6 +6,7 @@ html{
 
 header{
     text-align: center;
+    padding-right:5%;
     color:rgb(6, 61, 61);
     background-color:rgb(223, 204, 64);
 }
@@ -38,6 +39,8 @@ footer table{
 }
 
 .wholeTree{float:left;margin-right:1.5rem;}
+
+
 
 nav{
     padding-left: 1rem;
@@ -87,7 +90,7 @@ button{
 
 article{
     display:block;
-    margin-right:13%;
+    margin-right:17%;
     margin-left:17%;
     padding-top:1rem;
 }
@@ -122,6 +125,7 @@ article{
 #reviews{
     width:87.5%;
     border-style:groove;
+    margin-left:4%;
 
 }
 #reviews thead td{
@@ -145,4 +149,31 @@ article{
 .reviewContent{
     border-top-style:dashed;
     border-top-width:0.5rem;
+}
+
+#heading{
+    padding-right:8.5%;
+    text-align:center;
+}
+
+/* For animating the heading */
+span.preFade{
+    opacity: 0;
+    font-size: 1px;
+}
+
+span.fade{
+    transition: all 0.25s ease;
+    font-size: 22px;
+    opacity: 1;
+}
+
+.pix20{
+    font-size:20px;
+}
+
+iframe{
+    width:inherit;
+    margin-left:31%;
+    margin-right:auto;
 }
