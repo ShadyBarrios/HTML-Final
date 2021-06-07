@@ -1,4 +1,4 @@
-let foodContent = "<ul><li><a href=\"detailedMenu.html\">Detailed Menu</a></li><li><a href=\"reviews.html\">Food Reviews</a></li>";
+let foodContent = "<ul><li><a href=\"detailedMenu.html\">Menu</a></li><li><a href=\"reviews.html\">Food Reviews</a></li>";
 let foodButton = document.getElementById("foodButton");
 let foodArea = document.getElementById("foodContent");
 let foodExpanded = false; // false = not shown. true = shown

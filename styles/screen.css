@@ -164,5 +164,34 @@ iframe{
 #thumbsUp{
     height:auto;
     width:38%;
-    padding-left:6%;
+}
+
+#annoyedSquidWithSponge{
+    height:auto;
+     width:40%;
+     
+}
+figure{
+    padding-left:20%;
+}
+
+#confused{
+    height:auto;
+    width:25%;
+}
+
+.menuItem{
+    height:auto;
+    width:70%;
+
+}
+
+#spongeBargingOutOfTheKitchen{
+    height:auto;
+    padding-right:3%;
+    width:45%;
+}
+
+figcaption{
+    text-align:center;
 }
