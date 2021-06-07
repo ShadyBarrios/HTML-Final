@@ -195,3 +195,54 @@ figure{
 figcaption{
     text-align:center;
 }
+
+form{
+    border-style:groove;
+    width:90%;
+}
+
+form table{
+    width:100%;
+}
+
+.formTD{
+    padding-left:12%
+}
+
+#right{
+    border-left-style:groove;
+}
+#left{
+    border-right-style:groove;
+}
+#left, #right{
+    border-bottom-style:groove;
+}
+#bottom{
+    border-top-style:groove;
+}
+
+#preForm{
+    width:90%;
+}
+
+#applicationButton{
+    border:2px;
+    border-style:solid;
+    color:black;
+    background-color:whitesmoke;
+}
+
+#applicationButton:hover{
+    color:darkgoldenrod;
+}
+
+#krustyTour{
+    padding-right:30%;
+}
+
+#theKrustyKrab{
+    height:auto;
+    width:45%;
+    padding-right:2%;
+}

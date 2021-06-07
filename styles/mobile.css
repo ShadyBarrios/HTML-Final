@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px){
+@media screen and (max-width: 768px){
     
     li{
         padding-bottom:15px;
@@ -40,5 +40,9 @@
     #annoyedSquidWithSponge{
         height:auto;
         width:90%;
+    }
+    .formTD{
+        padding-left:2%;
+        padding-right:3%;
     }
 }

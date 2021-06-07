@@ -6,6 +6,7 @@
         <link rel="icon" href="images/logo-32x32.png">
         <link rel="stylesheet" href="styles/screen.css">
         <link rel="stylesheet" href="styles/mobile.css">
+        <link rel="stylesheet" href="styles/fix.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lato&family=Sigmar+One&display=swap" rel="stylesheet">
     </head>
@@ -23,7 +24,7 @@
         </table>
     </header>
     <body>
-        <nav class = "wholeTree">
+        <nav class = "wholeTree"><!-- content found in listExposer.js -->
             <p >Link Tree</p>
             <ol>
                 <ul id="NonBurger">
@@ -46,13 +47,65 @@
         </figure>
             
         <article>
+            <p id="preForm">
+                We see that you are interested in making us mo- I mean, working at this fine establishment. 
+                We are extremely excited by your enthusiasm. All wee need is for you to fill out a couple 
+                questions to see if you're a good fit for this company.
+            </p>
             
+            <form action="mailto:scottgb04@outlook.com" method="POST" enctype="text/plain">
+                <table>
+                    <td id="left" class="formTD"> 
+                        <h4>
+                            First Name:
+                            <input type="text" name="username" size="12" maxlength="20">
+                            <br><br>
+                            Last Name:&nbsp;
+                            <input type="text" name="lastName" size="12" maxlength="40">
+                            <br><br>
+                            Date Of Birth:
+                            <input type="date" name="dateOfBirth">
+                        </h4>
+                    </td>
+                    <td id="right" class="formTD">
+                        <h4>
+                            Email:
+                            <input type="text" name="Email" size="12" maxlength="60">
+                            <br><br>
+                            Telephone Number:
+                            <input type="tel" name="Telephone" size="12" maxlength="18">
+                            <br><br>
+                            Please Write Any Extra Comments:
+                            <br>
+                            <textarea name="comments" cols="20" rows="3" id="comments">
+                                Enter your comments here...
+                            </textarea>
+                        </h4>
+                    </td>
+                    <tr>
+                        <td id="bottom" colspan="2">
+                            <p style="text-align:center">
+                            I solemnly swear that I will make this company my top priority and will do 
+                            my best to make Mr Krabs money.</p>
+                            <br>
+                            <select id ="hireDecider" name="decider" style="display:block; margin:auto; margin-bottom:3%;">
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <script src="js/textareaClearer.js"></script>
+                </table>
+                <button id="applicationButton" style="display:block; margin:auto;margin-bottom:3%;">Submit Application</button>
+            </form> 
 
+            <div id="appDecision" style="text-align:center; padding-right:9%;"></div>
+            <script src="js/submitApplication.js"></script>
         </article>
         <script src="js/textAnimator.js"></script>
     </body>
-    <footer>
-        <table id="footerTable">
+    <footer> 
+        <table id="footerTable"> <!-- Content found in footerAdjust.js -->
         </table>
         <script src = "js/footerAdjuster.js"></script>
     </footer>
