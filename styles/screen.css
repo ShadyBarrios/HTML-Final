@@ -46,7 +46,8 @@ nav{
     padding-left: 1rem;
     padding-right: 2rem;
     margin-top:1rem;
-    margin-bottom:1rem;
+    margin-bottom:25%;
+    display:block;
     background-color:rgba(0,0,0,0.09);
 }
 
@@ -90,26 +91,9 @@ button{
 
 article{
     display:block;
-    margin-right:17%;
+    margin-right:auto;
     margin-left:17%;
     padding-top:1rem;
-}
-
-.aboutPage{
-    float:right;
-    padding-left: 1rem;
-    padding-right: 2rem;
-    margin-top:1rem;
-    margin-bottom:1rem;
-    background-color:rgba(0,0,0,0.09);
-    width:12%;
-    max-width:12%;
-    display:block;
-
-}
-
-#descriptionOfPage{
-    padding-left:8%;
 }
 
 .question{
@@ -152,7 +136,7 @@ article{
 }
 
 #heading{
-    padding-right:8.5%;
+    padding-right:18%;
     text-align:center;
 }
 
@@ -174,6 +158,6 @@ span.fade{
 
 iframe{
     width:inherit;
-    margin-left:31%;
+    margin-left:26.5%;
     margin-right:auto;
 }
