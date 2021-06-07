@@ -1,14 +1,44 @@
-@media screen and (max-width: 900px){
-    html{
-        background-color:red;
+@media screen and (max-width: 900px) and (min-width:600px){
+    
+    li{
+        padding-bottom:15px;
+
     }
     a{
-        margin-bottom:0.8rem;
-    }
-    li{
-        margin-bottom:0.8rem;
+        padding-top:15px;
+        font-size:1.1rem;
     }
     article{
-        margin-right:15%;
+        padding-left:auto;
+        padding-right:10%;
+    }
+    .animateIn{
+        font-size:30px;
+    }
+    #heading{
+        margin-bottom:10%;
+    }
+    .branchHeadings{
+        font-size:20px;
+    }
+    ul{
+        padding-top:15px;
+    }
+    ul li{
+        padding-top:15px;
+    }
+
+    /* Images */
+    #thumbsUp{
+        height:auto;
+        width:95%;
+    }
+    #heading{
+        padding-left:24%;
+        padding-right:none;
+    }
+    #annoyedSquidWithSponge{
+        height:auto;
+        width:90%;
     }
 }

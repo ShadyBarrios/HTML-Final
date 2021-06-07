@@ -91,7 +91,7 @@ button{
 
 article{
     display:block;
-    margin-right:auto;
+    margin-right:5%;
     margin-left:17%;
     padding-top:1rem;
 }
@@ -109,7 +109,6 @@ article{
 #reviews{
     width:87.5%;
     border-style:groove;
-    margin-left:4%;
 
 }
 #reviews thead td{
@@ -160,4 +159,10 @@ iframe{
     width:inherit;
     margin-left:26.5%;
     margin-right:auto;
+}
+
+#thumbsUp{
+    height:auto;
+    width:38%;
+    padding-left:6%;
 }
