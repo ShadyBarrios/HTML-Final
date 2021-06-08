@@ -10,16 +10,12 @@
     }
     article{
         padding-left:auto;
+        display:block;
+        margin-top:25%;
         padding-right:10%;
     }
     .animateIn{
         font-size:30px;
-    }
-    #heading{
-        margin-bottom:10%;
-    }
-    .branchHeadings{
-        font-size:20px;
     }
     ul{
         padding-top:15px;
@@ -31,18 +27,51 @@
     /* Images */
     #thumbsUp{
         height:auto;
-        width:95%;
+        width:70%;
     }
     #heading{
+        padding-top:5%;
+        height:110%;
         padding-left:24%;
-        padding-right:none;
+        padding-right:0;
     }
     #annoyedSquidWithSponge{
         height:auto;
-        width:90%;
+        width:70%;
     }
     .formTD{
         padding-left:2%;
         padding-right:3%;
+    }
+    .wholeTree{
+        margin-bottom:10%;
+        margin-right:0.75rem;
+    }
+    #confused{
+        width:55%;    
+    }
+    #reviews{
+        margin-top:5%;
+    }
+    #theKrustyKrab{
+        width:65%;
+        height:auto;
+    }
+    .menuItem{
+        width:90%;
+    }
+    #droolingPatrick{
+        height:auto;
+        width:55%;
+    }
+    #spongeBargingOutOfTheKitchen{
+        height:auto;
+        width:70%;
+    }
+    .youtube{
+        margin-left:0;
+    }
+    #nasty{
+        width:65%;
     }
 }
