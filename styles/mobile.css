@@ -27,17 +27,17 @@
     /* Images */
     #thumbsUp{
         height:auto;
-        width:70%;
+        width:67%;
     }
     #heading{
         padding-top:5%;
         height:110%;
-        padding-left:24%;
+        padding-left:25%;
         padding-right:0;
     }
     #annoyedSquidWithSponge{
         height:auto;
-        width:70%;
+        width:56%;
     }
     .formTD{
         padding-left:2%;
@@ -54,7 +54,7 @@
         margin-top:5%;
     }
     #theKrustyKrab{
-        width:65%;
+        width:54%;
         height:auto;
     }
     .menuItem{
@@ -62,11 +62,11 @@
     }
     #droolingPatrick{
         height:auto;
-        width:55%;
+        width:56%;
     }
     #spongeBargingOutOfTheKitchen{
         height:auto;
-        width:70%;
+        width:53.5%;
     }
     .youtube{
         margin-left:0;
@@ -74,4 +74,5 @@
     #nasty{
         width:65%;
     }
+
 }
